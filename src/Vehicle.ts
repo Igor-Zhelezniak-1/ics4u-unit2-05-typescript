@@ -81,4 +81,3 @@ class Vehicle {
 }
 
 export = Vehicle
-

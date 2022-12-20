@@ -64,4 +64,3 @@ citroenAmi.setColor('purple')
 console.log(`New color: ${citroenAmi.getColor()}`)
 
 console.log('\nDone.')
-
