@@ -81,4 +81,3 @@ class Car {
 }
 
 export = Car
-
