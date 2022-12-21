@@ -1,15 +1,15 @@
 /**
  * This is the main code that runs
- * with the Vehicle Class.
+ * with the Car Class.
  * By: Mr Coxall.
  * Version: 1.0
  * Since:   2022-10-17
  */
 
-import Vehicle from './Vehicle'
+import Car from './Car'
 
 console.log('Created Ford focus')
-const fordFocus = new Vehicle('white', 'B40-C4RR0', 4, 284)
+const fordFocus = new Car('white', 'B40-C4RR0', 4, 284)
 
 console.log('Status:')
 fordFocus.status()
@@ -26,7 +26,7 @@ console.log('')
 
 // new Ferrari
 console.log('Created a Ferrari')
-const ferrari = new Vehicle('red', 'VHD-35HU', 2, 320)
+const ferrari = new Car('red', 'VHD-35HU', 2, 320)
 
 console.log('Status:')
 ferrari.status()
@@ -46,7 +46,7 @@ console.log('')
 
 // new Citroen Ami
 console.log('Created a Citroen Ami')
-const citroenAmi = new Vehicle('blue', 'FS-695-DQ', 2, 45)
+const citroenAmi = new Car('blue', 'FS-695-DQ', 2, 45)
 
 console.log('Status:')
 citroenAmi.status()
